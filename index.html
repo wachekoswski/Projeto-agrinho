@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário AGRINHO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AGRINHO: Do campo a cidade, colhendo oportunidades.</h1>
+        <p></p>
+        
+        <form id="procrastination-form">
+            <div class="identification">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="question">
+                <label>1. Os conhecimentos técnicos em agropecuária melhoram a gestão de recursos hídricos nas cidades?</label>
+                <div>
+                    <input type="radio" name="q1" value="Sim" required> Sim
+                    <input type="radio" name="q1" value="Não"> Não
+                    <input type="radio" name="q1" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>2. Pode-se contribuir para a redução do desperdício de alimentos nas cidades com técnicas de conservação pós-colheita?</label>
+                <div>
+                    <input type="radio" name="q2" value="Sim" required> Sim
+                    <input type="radio" name="q2" value="Não"> Não
+                    <input type="radio" name="q2" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>3. Enfrenta-se restrições de espaço e uso do solo ao adaptar técnicas agropecuárias para o ambiente urbano?
+                </label>
+                <div>
+                    <input type="radio" name="q3" value="Sim" required> Sim
+                    <input type="radio" name="q3" value="Não"> Não
+                    <input type="radio" name="q3" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>4. A aplicação de tecnologias agropecuárias pode melhorar a qualidade de vida nas cidades através da produção local de alimentos frescos e saudáveis?</label>
+                <div>
+                    <input type="radio" name="q4" value="Sim" required> Sim
+                    <input type="radio" name="q4" value="Não"> Não
+                    <input type="radio" name="q4" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>5. Existem oportunidades econômicas emergentes associadas aos conhecimentos técnicos da agropecuária nas cidades, como o desenvolvimento de startups de tecnologia agrícola urbana?
+                </label>
+                <div>
+                    <input type="radio" name="q5" value="Sim" required> Sim
+                    <input type="radio" name="q5" value="Não"> Não
+                    <input type="radio" name="q5" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>6. Os conhecimentos técnicos da agropecuária podem promover a sustentabilidade ambiental nas áreas urbanas através da implementação de práticas de reciclagem de resíduos orgânicos?</label>
+                <div>
+                    <input type="radio" name="q6" value="Sim" required> Sim
+                    <input type="radio" name="q6" value="Não"> Não
+                    <input type="radio" name="q6" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>7. Os conhecimentos técnicos em agropecuária podem abordar desafios de segurança alimentar, como o acesso equitativo a alimentos nutritivos nas cidades?
+                </label>
+                <div>
+                    <input type="radio" name="q7" value="Sim" required> Sim
+                    <input type="radio" name="q7" value="Não"> Não
+                    <input type="radio" name="q7" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>8.  Os conhecimentos técnicos em agropecuária podem ser adaptados para promover a inclusão social nas áreas urbanas através da criação de programas de capacitação em agricultura urbana para comunidades carentes?</label>
+                <div>
+                    <input type="radio" name="q8" value="Sim" required> Sim
+                    <input type="radio" name="q8" value="Não"> Não
+                    <input type="radio" name="q8" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>9. Há benefícios na integração de conhecimentos técnicos em agropecuária com tecnologias digitais nas cidades, como o monitoramento remoto de culturas urbanas?</label>
+                <div>
+                    <input type="radio" name="q9" value="Sim" required> Sim
+                    <input type="radio" name="q9" value="Não"> Não
+                    <input type="radio" name="q9" value="Talvez"> Talvez
+                </div>
+            </div>
+            <div class="question">
+                <label>10. Os conhecimentos técnicos em agropecuária podem influenciar políticas públicas urbanas relacionadas à sustentabilidade alimentar, como a implementação de incentivos fiscais para práticas agrícolas sustentáveis?</label>
+                <div>
+                    <input type="radio" name="q10" value="Sim" required> Sim
+                    <input type="radio" name="q10" value="Não"> Não
+                    <input type="radio" name="q10" value="Talvez"> Talvez
+                </div>
+            </div>
+
+            <div class="observations">
+                <label for="observations">Observações:</label>
+                <textarea id="observations" name="observations" rows="4" cols="50"></textarea>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
